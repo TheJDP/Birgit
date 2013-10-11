@@ -1,0 +1,87 @@
+#header
+{
+    position:absolute;
+    left:0px;
+    top:0px;
+    height:100px;
+    width:100%;
+    background-color:#0099CC;
+    -moz-box-shadow: 0 0 8px 3px black;
+    -webkit-box-shadow: 0 0 8px 3px black;
+    box-shadow: 0 0 8px 3px black;
+    background: rgb(197,234,248);
+    background: -moz-linear-gradient(top,  rgba(197,234,248,1) 0%, rgba(51,181,229,1) 50%, rgba(29,169,218,1) 51%, rgba(0,153,204,1) 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(197,234,248,1)), color-stop(50%,rgba(51,181,229,1)), color-stop(51%,rgba(29,169,218,1)), color-stop(100%,rgba(0,153,204,1)));
+    background: -webkit-linear-gradient(top,  rgba(197,234,248,1) 0%,rgba(51,181,229,1) 50%,rgba(29,169,218,1) 51%,rgba(0,153,204,1) 100%);
+    background: -o-linear-gradient(top,  rgba(197,234,248,1) 0%,rgba(51,181,229,1) 50%,rgba(29,169,218,1) 51%,rgba(0,153,204,1) 100%);
+    background: -ms-linear-gradient(top,  rgba(197,234,248,1) 0%,rgba(51,181,229,1) 50%,rgba(29,169,218,1) 51%,rgba(0,153,204,1) 100%);
+    background: linear-gradient(to bottom,  rgba(197,234,248,1) 0%,rgba(51,181,229,1) 50%,rgba(29,169,218,1) 51%,rgba(0,153,204,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c5eaf8', endColorstr='#0099cc',GradientType=0 );
+    color:white;
+}
+
+#logout[type=submit]
+{
+    float:right;
+    height:26px;
+    width:100px;
+    border-width:2px;
+    padding:1px;
+    margin: 36px 0px 36px 0px;
+    -webkit-appearance: button;
+}
+
+#contentheader .username
+{
+    float:right;
+    height:24px;
+    width:100px;
+    border-width:2px;
+    padding:1px;
+    margin: 37px 0px 0px 0px;
+}
+#expirationtime
+{
+    position: relative;
+    display:block;
+    top: 70px;
+    left: 200px;
+    text-align:  right;
+    margin: 0px;
+}
+
+#contentheader
+{
+    width:960px;
+    height:100px;
+    margin: 0 auto;
+}
+
+#contentheaderleft
+{
+    display:block;
+    float:left;
+    height:100px;
+    margin:0px;
+}
+
+#contentheaderleft img
+{
+    display:block;
+    float:left;
+    height: 84px;
+    width: 84px;
+    margin:8px 0px 8px 0px;
+    -moz-box-shadow: 0 0 8px 3px black;
+    -webkit-box-shadow: 0 0 8px 3px black;
+    box-shadow: 0 0 8px 3px black;
+}
+
+#contentheaderright
+{
+    display:block;
+    float:right;
+    width:400px;
+    height:100px;
+    margin:0px;
+}

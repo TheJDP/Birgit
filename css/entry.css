@@ -1,0 +1,101 @@
+#title
+{
+    margin: 24px auto 0px auto !important;
+}
+
+#title, #username, #password, #url
+{
+    display:block;
+    height:20px;
+    width:400px;
+    border-width:2px;
+    padding:1px;
+    margin: 8px auto 0px auto;
+}
+
+#description
+{
+    display:block;
+    height:100px;
+    width:402px;
+    max-width:402px;
+    border-width:1px;
+    padding:1px;
+    margin: 8px auto 8px auto;
+}
+
+#passwordgenerator
+{
+    height:26px;
+    width:406px;
+    margin: 8px auto 0px auto;  
+    padding:0px;
+}
+
+#passwordgenerator input[type=checkbox]
+{
+    display:block;
+    float:left;
+    margin-top:7px;
+    margin-right:20px;
+}
+
+#passwordgenerator label
+{
+    display:block;
+    float:left;
+    margin-top:1px;
+}
+
+#count
+{
+    display:block;
+    float:left;
+    height:20px;
+    width:34px;
+    border-width:2px;
+    padding:1px;
+}
+
+#generate
+{
+    float:right;
+    height:26px;
+    width:150px;
+    border-width:2px;
+    padding:1px;
+    margin: 0px;
+    -webkit-appearance: button;
+}
+
+#actions
+{
+    display:block;
+    height:26px;
+    width:400px;
+    border-width:2px;
+    padding:1px;
+    margin: 8px auto 24px auto;
+}
+
+#abort
+{
+    float:left;
+    height:26px;
+    width:196px;
+    border-width:2px;
+    padding:1px;
+    margin: 0px;
+    -webkit-appearance: button;
+}
+#save
+{
+    float:right;
+    height:26px;
+    width:196px;
+    border-width:2px;
+    padding:1px;
+    margin: 0px;
+    -webkit-appearance: button;
+}
+

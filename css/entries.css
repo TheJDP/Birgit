@@ -1,0 +1,116 @@
+#tableoptions
+{
+    margin: 24px auto 0px auto;
+    height:26px;
+}
+#newentry
+{
+    float:left;
+    height:26px;
+    width:100px;
+    border-width:2px;
+    padding:1px;
+    margin: 0px 8px 0px 8px;
+    -webkit-appearance: button;
+}
+#filter
+{
+    float:left;
+    width:230px;
+    height:26px;
+    display:block;
+    margin-left:260px;
+}
+#searchtext
+{
+    height:20px;
+    width:200px;
+    float:left;
+    border-width:2px;
+    padding:1px;
+}
+#entrycount
+{
+    display:block;
+    float:right;
+    height:26px;
+    width:100px;
+    padding:1px;
+    margin: 0px 8px 0px 8px;
+    -webkit-appearance: menulist-button;
+}
+#entrytable
+{
+    width:944px;
+    border-collapse:collapse;
+    margin:8px 8px 0px 8px;
+}
+#entrytable thead td
+{
+    border-bottom-width:1px;
+    border-bottom-style:solid;
+    border-bottom-color:#a9a9a9;
+    font-weight:bold;
+    border-width:1px;
+    border-style:solid;
+    border-color:#a9a9a9;
+    padding:8px;
+    text-decoration:underline;
+    cursor: default !important;
+    background-color: #a8dff4;
+}
+#entrytable thead img
+{
+    float:right;
+    margin: 2px 0px 2px 8px;
+    height:16px;
+    width:16px;
+    cursor: pointer;
+}
+#entrytable td
+{
+    border-width:1px;
+    border-style:solid;
+    border-color:#a9a9a9;
+    padding:8px;
+}
+#entrytable .title, #entrytable .username, #entrytable .updated 
+{
+    cursor: pointer;
+}
+#entrytable .entry
+{
+    background-color:white;
+}
+#entrytable .entry:hover
+{
+    background-color:#a8dff4;
+}
+#entrytable .entry td img
+{
+    float:right;
+    width: 24px;
+    height: 24px;
+    margin-left: 8px;
+    border: none;
+}
+#entrytable .entry td .last
+{
+    margin-left: 0px !important;
+}
+#noentries
+{
+    display: none;
+    text-align:center;
+}
+#paginator
+{
+    width:942px;
+    margin:0px 8px 32px 8px;
+    display:block;
+}
+#paginator p
+{
+    text-align:center;
+    margin-top: 16px;
+}

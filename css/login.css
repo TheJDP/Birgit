@@ -1,0 +1,40 @@
+#loginmask
+{
+    display:block;
+    margin-top: 24px;
+    margin-bottom: 32px;
+}
+#formwrapper
+{
+    display:block;
+    height:26px;
+    width:544px;
+    margin:auto;
+}
+#username, #password
+{
+    float:left;
+    height:20px;
+    width:200px;
+    border-width:2px;
+    padding:1px;
+    margin: 0px 0px 0px 8px;
+}
+#submitform
+{
+    float:left;
+    height:26px;
+    width:100px;
+    border-width:2px;
+    padding:1px;
+    margin: 0px 8px 0px 8px;
+    -webkit-appearance: button;
+}
+#activityindicator
+{
+    display:none;
+    height:31px;
+    width:31px;
+    margin:auto;
+    margin-top:32px;
+}

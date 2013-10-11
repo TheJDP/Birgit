@@ -1,0 +1,36 @@
+/* 
+    Document   : general
+    Created on : 11.09.2013, 21:16:22
+    Author     : janriedstadt
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+@font-face {
+    font-family: "Roboto";
+    src: url("../fonts/Roboto-Regular.ttf") format("truetype");
+}
+
+body
+{
+    background-image:url("../images/background.png");
+    margin:0px;
+}
+
+h1, h2, h3, h4, h5, h6, p, input, td, th, textarea, label
+{
+    font-family: "Roboto";
+}
+
+#wrapper
+{
+    background-color:white;
+    width:960px;
+    margin: 0 auto;
+    margin-top: 100px;
+    -moz-box-shadow: 0 0 8px 3px black;
+    -webkit-box-shadow: 0 0 8px 3px black;
+    box-shadow: 0 0 8px 3px black; 
+    padding:0px;
+    padding-top:8px;
+}

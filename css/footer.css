@@ -1,0 +1,20 @@
+/* 
+    Document   : footer
+    Created on : 11.09.2013, 21:41:48
+    Author     : janriedstadt
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+#footer
+{
+    margin:0px;
+}
+
+#footer p
+{
+    background-color:#a8dff4;
+    padding:4px;
+    margin:0px;
+    text-align:center;
+}
