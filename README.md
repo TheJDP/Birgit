@@ -1,4 +1,4 @@
-Birgit
+EasyPass
 ======
 
 Ein Mehrbenutzer Passworttool.
